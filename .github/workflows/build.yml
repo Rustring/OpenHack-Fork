@@ -1,6 +1,7 @@
 name: Build OpenHack
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - "**"
